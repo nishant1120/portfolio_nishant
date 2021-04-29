@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.scss";
+import CenterScreen from "./centerscreen.js";
+import Header from "./header";
+import About from "./About.js";
 
-function App() {
+const App = () => {
+  const [screenType, setScreenType] = useState("About");
+  console.log();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Parent">
+      <Header />
+      <About />
+      {/* <CenterScreen screenType={screenType} /> */}
+      {/* <input list="test" placeholder="choose" />
+      <datalist id="test">
+        <option value="nsiahnt" />
+        <option value="Msihra" />
+        <option value="Addidad" />
+        <option value="Nike" />
+        <option value="Puma" />
+        <option value="Hello" />
+        <option value="wORLD" />
+        <option value="ssup" />
+      </datalist> */}
     </div>
   );
-}
+};
 
 export default App;
