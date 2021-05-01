@@ -39,25 +39,24 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-cplusplus-line" />
-          <Techstack iconName="devicon-python-plain-wordmark " />
-
-          <Techstack iconName="devicon-javascript-plain " />
-          <Techstack iconName="devicon-nodejs-plain-wordmark " />
-          <Techstack iconName="devicon-express-original-wordmark" />
-          <Techstack iconName="devicon-react-original-wordmark" />
-          <Techstack iconName="devicon-mongodb-plain-wordmark" />
-          <Techstack iconName="devicon-git-plain-wordmark" />
-          <Techstack iconName="devicon-bootstrap-plain-wordmark" />
+          <Techstack iconName="devicon-cplusplus-line" iconType="C++" />
+          <Techstack iconName="devicon-python-plain-wordmark "  iconType="Python"/>
+          <Techstack iconName="devicon-javascript-plain " iconType="JavaScript"/>
+          <Techstack iconName="devicon-nodejs-plain-wordmark "  iconType="NojeJs"/>
+          <Techstack iconName="devicon-express-original-wordmark"  iconType="Express"/>
+          <Techstack iconName="devicon-react-original-wordmark"  iconType="React"/>
+          <Techstack iconName="devicon-mongodb-plain-wordmark"  iconType="MongoDb"/>
+          <Techstack iconName="devicon-git-plain-wordmark"  iconType="Github"/>
+          <Techstack iconName="devicon-bootstrap-plain-wordmark"  iconType="Bootstrap"/>
         </Row>
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-linux-plain" />
-          <Techstack iconName="cib-visual-studio-code" />
-          <Techstack iconName="cib-anaconda" />
-          <Techstack iconName="cib-postman" />
+          <Techstack iconName="devicon-linux-plain"  iconType="Linux"/>
+          <Techstack iconName="cib-visual-studio-code"  iconType="VS Code"/>
+          <Techstack iconName="cib-anaconda"  iconType="Anaconda"/>
+          <Techstack iconName="cib-postman"  iconType="Postman"/>
         </Row>
       </Container>
     </Container>

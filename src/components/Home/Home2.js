@@ -5,6 +5,7 @@ import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tilt from "react-parallax-tilt";
 
+
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -20,7 +21,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Python and Javascript. </b>
+                <b className="purple">Python and Javascript. </b>
               </i>
               <br />
               <br />

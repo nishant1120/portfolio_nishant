@@ -1,17 +1,18 @@
 html {
-  --section-background-color: linear-gradient(
+  /* --section-background-color: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.582),
     rgba(12, 8, 24, 0.904)
-  );
+  ); */
 
-  --image-gradient: linear-gradient(
+  /* --image-gradient: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.678),
     rgba(12, 10, 22, 0.863)
-  );
+  ); */
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #00f2ff;
+  /* --p: 50 */
 }
 
 .purple {
@@ -254,7 +255,7 @@ html {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-image: url(./Assets/messi.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -444,7 +445,7 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: url(./Assets/Space-HD.jpg);
 }
 
 .project-card {
@@ -542,10 +543,9 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: url(./Assets/Space-HD.jpg);
   color: white !important;
 }
-
 .tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;
@@ -565,12 +565,58 @@ html {
     margin: 10px !important;
   }
 }
+.flip-card {
+  background-color: transparent;
+  /* width: 300px; */
+  /* height: 300px; */
+  perspective: 1000px;
+}
 
-.tech-icons:hover {
+.flip-card-inner {
+  position: relative;
+  /* width: 100%; */
+  /* height: 100%; */
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.tech-icons,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* .flip-card-front {
+  background-color: #bbb;
+  color: black;
+} */
+
+.flip-card-back {
+  background-color: transparent;
+  color: white;
+  transform: rotateY(180deg);
+  height: 120px;
+  width: 140.8px;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: top;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  padding-top: 4px;
+}
+/* .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
-}
+} */
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
@@ -593,6 +639,22 @@ html {
     padding-top: 0 !important;
   }
 }
+
+/* .box {
+  
+  --v:calc( ((18/5) * var(--p) - 90)*1deg);
+
+  width:50%;
+  height:50%;
+  display:inline-block;
+  border-radius:50%;
+  padding:10px;
+  background:
+    linear-gradient(#ccc,#ccc) content-box,
+    linear-gradient(var(--v), #f2f2f2     50%,transparent 0) 0/min(100%,(50 - var(--p))*100%),
+    linear-gradient(var(--v), transparent 50%,rgb(91, 151, 204) 0) 0/min(100%,(var(--p) - 50)*100%),
+    linear-gradient(to right, #f2f2f2 50%,rgb(91, 151, 204) 0);
+} */
 /* --------- */
 /* Resume */
 /* --------- */
@@ -600,7 +662,7 @@ html {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: url(./Assets/Space-HD.jpg);
   color: white !important;
 }
 
