@@ -39,24 +39,76 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-cplusplus-line" iconType="C++" />
-          <Techstack iconName="devicon-python-plain-wordmark "  iconType="Python"/>
-          <Techstack iconName="devicon-javascript-plain " iconType="JavaScript"/>
-          <Techstack iconName="devicon-nodejs-plain-wordmark "  iconType="NojeJs"/>
-          <Techstack iconName="devicon-express-original-wordmark"  iconType="Express"/>
-          <Techstack iconName="devicon-react-original-wordmark"  iconType="React"/>
-          <Techstack iconName="devicon-mongodb-plain-wordmark"  iconType="MongoDb"/>
-          <Techstack iconName="devicon-git-plain-wordmark"  iconType="Github"/>
-          <Techstack iconName="devicon-bootstrap-plain-wordmark"  iconType="Bootstrap"/>
+          <Techstack
+            iconName="devicon-cplusplus-line"
+            iconType="C++"
+            iconPercent="40"
+          />
+          <Techstack
+            iconName="devicon-python-plain-wordmark "
+            iconType="Python"
+            iconPercent="70"
+          />
+          <Techstack
+            iconName="devicon-javascript-plain "
+            iconType="JavaScript"
+            iconPercent="80"
+          />
+          <Techstack
+            iconName="devicon-nodejs-plain-wordmark "
+            iconType="NojeJs"
+            iconPercent="60"
+          />
+          <Techstack
+            iconName="devicon-express-original-wordmark"
+            iconType="Express"
+            iconPercent="90"
+          />
+          <Techstack
+            iconName="devicon-react-original-wordmark"
+            iconType="React"
+            iconPercent="100"
+          />
+          <Techstack
+            iconName="devicon-mongodb-plain-wordmark"
+            iconType="MongoDb"
+            iconPercent="60"
+          />
+          <Techstack
+            iconName="devicon-git-plain-wordmark"
+            iconType="Github"
+            iconPercent="100"
+          />
+          <Techstack
+            iconName="devicon-bootstrap-plain-wordmark"
+            iconType="Bootstrap"
+            iconPercent="100"
+          />
         </Row>
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-linux-plain"  iconType="Linux"/>
-          <Techstack iconName="cib-visual-studio-code"  iconType="VS Code"/>
-          <Techstack iconName="cib-anaconda"  iconType="Anaconda"/>
-          <Techstack iconName="cib-postman"  iconType="Postman"/>
+          <Techstack
+            iconName="devicon-linux-plain"
+            iconType="Linux"
+            iconPercent="80"
+          />
+          <Techstack
+            iconName="cib-visual-studio-code"
+            iconType="VS Code"
+            iconPercent="80"
+          />
+          <Techstack
+            iconName="cib-anaconda"
+            iconType="Anaconda"
+            iconPercent="40"
+          />
+          <Techstack
+            iconName="cib-postman"
+            iconType="Postman"
+            iconPercent="80"
+          />
         </Row>
       </Container>
     </Container>

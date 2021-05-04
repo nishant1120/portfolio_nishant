@@ -796,3 +796,9 @@ html {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+svg {
+  max-width: 70px;
+
+  max-height: 70px;
+}
