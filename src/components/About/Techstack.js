@@ -2,7 +2,7 @@ import React from "react";
 import { Col } from "react-bootstrap";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ProgressBar from "./../Progressbar.js";
+// import ProgressBar from "./../Progressbar.js";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import ChangingProgressProvider from "./ChangingProgressProvider";
@@ -25,20 +25,12 @@ const Techstack = (prop) => {
                       textSize: 30,
                       textColor: "#ffffff",
                       strokeLinecap: "10",
-                      pathColor: "#ffffff",
+                      pathColor: "#7d35bd",
                     })}
                   />
                 )}
               </ChangingProgressProvider>
             </div>
-            {/* <ProgressBar
-              progress={prop.iconPercent}
-              size={60}
-              strokeWidth={8}
-              circleOneStroke="#d9edfe"
-              circleTwoStroke="purple"
-            /> */}
-            {/* <div style={{height:"100%", background:"red",padding:"0px 0px 4px 4px" , margin:"0px"}}>60%</div> */}
           </div>
           <Col xs={4} md={2} className="tech-icons">
             <i className={`${prop.iconName} tech-icon-images`}></i>

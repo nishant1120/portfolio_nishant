@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/tech-boi.jpg";
 
 function About() {
   return (
@@ -67,7 +67,7 @@ function About() {
           <Techstack
             iconName="devicon-react-original-wordmark"
             iconType="React"
-            iconPercent="100"
+            iconPercent="90"
           />
           <Techstack
             iconName="devicon-mongodb-plain-wordmark"

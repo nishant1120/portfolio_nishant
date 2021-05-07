@@ -279,17 +279,17 @@ html {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #6eab0c;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #6eab0c !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #6eab0c !important;
 }
 
 @media (max-width: 767px) {
@@ -404,6 +404,8 @@ html {
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
+  color: white;
+  
 }
 .footer-copywright {
   text-align: center !important;
@@ -445,7 +447,8 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: url(./Assets/Space-HD.jpg);
+  background-image: url(./Assets/Space-HD.jpeg);
+  
 }
 
 .project-card {
@@ -543,7 +546,7 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: url(./Assets/Space-HD.jpg);
+  background-image: url(./Assets/Space-HD.jpeg);
   color: white !important;
 }
 .tech-icons {
@@ -662,7 +665,8 @@ html {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: url(./Assets/Space-HD.jpg);
+  background-image: url(./Assets/Space-HD.jpeg);
+  /* opacity:0.5; */
   color: white !important;
 }
 

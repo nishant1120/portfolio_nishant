@@ -10,21 +10,24 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Nishant Mishra </span>
-            from <span className="purple"> Delhi, India.</span>
-            <br />I am a software developer at SLK
+            from <span className="purple">New Delhi, India.</span>
+            <br />I am a software developer at <span className="purple">SLK,Bengaluru, India.</span>
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Other than development, I love: 
           </p>
           <ul>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Playing Games
+              <i className="far fa-hand-point-right"></i> Watching Football (Die Hard MESSI Fan)
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Writting Tech Blogs
+              <i className="far fa-hand-point-right"></i> Playing sports
             </li>
             <li className="about-activity">
               <i className="far fa-hand-point-right"></i> Travelling
+            </li>
+            <li className="about-activity">
+              <i className="far fa-hand-point-right"></i> Organising events.
             </li>
           </ul>
 

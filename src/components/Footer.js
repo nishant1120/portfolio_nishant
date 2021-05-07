@@ -22,6 +22,7 @@ function Footer() {
                 href="https://github.com/nishant1120"
                 target="_blank"
                 style={{ color: "white" }}
+                rel="noreferrer"
               >
                 <i className="fab fa-github"></i>
               </a>
@@ -31,6 +32,7 @@ function Footer() {
                 href="https://twitter.com/nishantmishra19"
                 target="_blank"
                 style={{ color: "white" }}
+                rel="noreferrer"
               >
                 <i className="fab fa-twitter"></i>
               </a>
@@ -40,6 +42,7 @@ function Footer() {
                 href="https://www.linkedin.com/in/nishant-kumar-mishra-8503a9122/"
                 target="_blank"
                 style={{ color: "white" }}
+                rel="noreferrer"
               >
                 <i className="fab fa-linkedin-in"></i>
               </a>
