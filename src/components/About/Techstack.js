@@ -10,8 +10,8 @@ import "react-circular-progressbar/dist/styles.css";
 const Techstack = (prop) => {
   return (
     <>
-      <div class="flip-card">
-        <div class="flip-card-inner">
+      {/* <div class="flip-card"> */}
+        {/* <div class="flip-card-inner"> */}
           {/* <div class="flip-card-back">
             <div>{prop.iconType}</div> */}
             {/* <div label="Custom animation speed">
@@ -35,8 +35,8 @@ const Techstack = (prop) => {
           <Col xs={4} md={2} className="tech-icons">
             <i className={`${prop.iconName} tech-icon-images`}></i>
           </Col>
-        </div>
-      </div>
+        {/* </div> */}
+      {/* </div> */}
     </>
   );
 };
