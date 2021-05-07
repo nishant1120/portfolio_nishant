@@ -3,9 +3,9 @@ import { Col } from "react-bootstrap";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import ProgressBar from "./../Progressbar.js";
-import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+// import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import ChangingProgressProvider from "./ChangingProgressProvider";
+// import ChangingProgressProvider from "./ChangingProgressProvider";
 
 const Techstack = (prop) => {
   return (
