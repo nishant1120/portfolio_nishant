@@ -14,7 +14,7 @@ const Techstack = (prop) => {
         <div class="flip-card-inner">
           <div class="flip-card-back">
             <div>{prop.iconType}</div>
-            <div label="Custom animation speed">
+            {/* <div label="Custom animation speed">
               <ChangingProgressProvider values={[0, prop.iconPercent]}>
                 {(percent) => (
                   <CircularProgressbar
@@ -30,7 +30,7 @@ const Techstack = (prop) => {
                   />
                 )}
               </ChangingProgressProvider>
-            </div>
+            </div> */}
           </div>
           <Col xs={4} md={2} className="tech-icons">
             <i className={`${prop.iconName} tech-icon-images`}></i>
