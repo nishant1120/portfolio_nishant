@@ -25,7 +25,7 @@ const Techstack = (prop) => {
                       textSize: 30,
                       textColor: "#ffffff",
                       strokeLinecap: "10",
-                      pathColor: "#7d35bd",
+                      pathColor: "#ad7020",
                     })}
                   />
                 )}

@@ -31,7 +31,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
+          <p style={{ marginBlockEnd: 0, color: "#00f2ff"}}>
             "Talk is cheap! Show me the Code!!{" "}
           </p>
           <footer className="blockquote-footer">Linus Trovalds</footer>
