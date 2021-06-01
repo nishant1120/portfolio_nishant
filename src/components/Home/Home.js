@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 //import homeLogo from "../../Assets/home-main.svg";
-import profileImage from "../../Assets/Profile.jpg";
+import profileImage from "../../Assets/nishProfimage.jpg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";

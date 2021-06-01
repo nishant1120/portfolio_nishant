@@ -506,7 +506,6 @@ html {
 
 .card-img-top {
   padding: 20px !important;
-  opacity: 0.8 !important;
   border-radius: 10px !important;
 }
 
@@ -520,6 +519,16 @@ html {
   color: #fff !important;
   background-color: #3596bd !important;
   border-color: #3596bd !important;
+}
+.btn-secd {
+  background: transparent !important;
+  color: white !important;
+}
+.techstacksIcon{
+ border : 1px solid rgba(137, 196, 230, 0.637);
+ margin-left: 5px;
+ padding: 2px 2px 2px 2px;
+ border-radius: 8px;
 }
 
 .btn-primary:hover {
