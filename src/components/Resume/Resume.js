@@ -6,7 +6,7 @@ import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import pdf from "../../Assets/RESUME.docx";
+import pdf from "../../Assets/Resume.pdf";
 
 function Resume() {
   return (
