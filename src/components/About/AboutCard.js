@@ -18,11 +18,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Watching Football (Die Hard MESSI Fan)
-            </li>
-            <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Playing sports
-            </li>
+              <i className="far fa-hand-point-right"></i> Watching Football</li>
             <li className="about-activity">
               <i className="far fa-hand-point-right"></i> Travelling
             </li>

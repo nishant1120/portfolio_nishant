@@ -28,7 +28,7 @@ function Home2() {
               My current focus is on &nbsp;
               <i>
                 <b className="purple">
-                  Builing scalable web apps and resuable web components
+                  Building scalable web apps and resuable web components
                 </b>
               </i>
               <br />

@@ -22,12 +22,29 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Technical Experience</h3>
             <Resumecontent
-              title="SOFTWARE DEVELOPER [SLK]"
-              date="June 2020 - Present"
+              title="Software Engineer (Frontend) [LeenaAi]"
+              date="May 2022 -Present(1Y)"
               content={[
-                "Worked as a Product intern in the Dimensions Lab division of SLK Software, worked on Parsers for C language.",
-                "Worked on Rewriting the whole Product in React Js",
-                "Currently working on Technologies Python , React , JavaScript to Integrate a 3rd Party Feature in our Product."
+                "At Leena AI, a leading conversational AI platform, I contribute as a Software Engineer in the frontend team. I am responsible for maintaining and enhancing Leena AI's Engagement Product 1.0 version, ensuring its smooth operation and high-quality performance.",
+                " Additionally, I have been actively involved in the development of the 2.0 version of the application. Working collaboratively with a team of two engineers, we successfully delivered the phase 1 of the app on time.",
+                " This involved architecting and developing the entire app, utilizing my expertise in ReactJS, JavaScript, HTML5, CSS, and other modern web technologies.",
+              ]}
+            />
+            <Resumecontent
+              title="Software Develepment Engineer-1(Frontend) [Innovaccer]"
+              date="Nov 2021 - May 2022(7M)"
+              content={[
+                "I was in the core UI team , responsible for the development and maintenance of the Frontend Design System (component library) used across all Innovaccer by all Frontend Teams.",
+                "Built new components, and fixed a lot of issues with existing components",
+              ]}
+            />
+            <Resumecontent
+              title="Software Developer [SLK]"
+              date="June 2020 - Nov 2021(1Y 5M)"
+              content={[
+                "Worked on Company's Code Migration of Frontend from Angular Js to ReactJS. Task involved React JS , CSS , Redux.",
+                "Work involved closely working with team members on python and React. Using these technologies trying to Implement a whole new Plugin to our Current Product.",
+                "Architecting and developing the whole Frontend in React JS.",
               ]}
             />
             <Resumecontent
@@ -36,7 +53,7 @@ function Resume() {
               content={[
                 "Worked in Compressor House of Pyro Section in the plant",
                 "Was assigned a project to optimize the consumption of power of the compressor house",
-                "Was successful in achieving the goal of saving 149.9 KHW per days for the plant."
+                "Was successful in achieving the goal of saving 149.9 KHW per days for the plant.",
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
@@ -56,14 +73,14 @@ function Resume() {
               title="Coordinator, Street Play Society(Nukkad Mandali) LNMIIT , Jaipur "
               content={[
                 "Have Personally Perfomed 6 Street Plays in prestigious Institutions line IITB(Mood Ingido) , IITR(Thomso)",
-                "Directed Plays and Mentored Juniors for almost 3 Years"
+                "Directed Plays and Mentored Juniors for almost 3 Years",
               ]}
             />
             <Resumecontent
               title="President,Society of Automotive Engineers(SAE), LNMIIT, Jaipur"
               content={[
                 "Was Responsible for managing the student chapter of SAE in LNMIIT with more than 150 members.",
-                "First Fully funded Major Project of Efficycle was made under my Tenure and Participated in National Level Competition Help in LPU Jalandhar, Punjab"
+                "First Fully funded Major Project of Efficycle was made under my Tenure and Participated in National Level Competition Help in LPU Jalandhar, Punjab",
               ]}
             />
           </Col>
@@ -72,12 +89,12 @@ function Resume() {
             <Resumecontent
               title="Bachelor of Technology with Majors in MECHANICAL Engineering [THE LNMIIT, Jaipur] "
               date="2016 - 2020 "
-              content={["CGPA: 5.98"]}
+              content={[""]}
             />
             <Resumecontent
               title="12TH BOARD [Kalka Public School, New Delhi]"
               date="July 2015"
-              content={["Precentage: 80.40%"]}
+              content={[""]}
             />
           </Col>
         </Row>

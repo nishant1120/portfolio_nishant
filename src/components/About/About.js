@@ -23,7 +23,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Know Who <strong className="purple">I AM</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -55,18 +55,8 @@ function About() {
             iconPercent="80"
           />
           <Techstack
-            iconName="devicon-nodejs-plain-wordmark "
-            iconType="NojeJs"
-            iconPercent="60"
-          />
-          <Techstack
-            iconName="devicon-express-original-wordmark"
-            iconType="Express"
-            iconPercent="90"
-          />
-          <Techstack
             iconName="devicon-react-original-wordmark"
-            iconType="React"
+            iconType="React JS"
             iconPercent="90"
           />
           <Techstack
@@ -98,11 +88,6 @@ function About() {
             iconName="cib-visual-studio-code"
             iconType="VS Code"
             iconPercent="80"
-          />
-          <Techstack
-            iconName="cib-anaconda"
-            iconType="Anaconda"
-            iconPercent="40"
           />
           <Techstack
             iconName="cib-postman"
